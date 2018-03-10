@@ -106,6 +106,25 @@ body {
     font-size: 30px;
 }
 
+input {
+    position: absolute;
+    left: 50%;
+    width: 200px;
+    border-radius: 12px;
+    transform: translateX(-50%);
+    top: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 2px 20px #7d7d7d14;
+    font-weight: 400;
+    font-family: Rubik;
+    text-align: center;
+    padding: 15px;
+}
+
+input:focus {outline: none;}
+
 button {
     position: absolute;
     width: 200px;
@@ -144,9 +163,9 @@ i {
     transition: margin 0.3s;
 }
 
-.btn-new { top: 45px;}
-.btn-roll { top: 403px;}
-.btn-hold { top: 467px;}
+.btn-new { top: 85px;}
+.btn-roll { top: 440px;}
+.btn-hold { top: 500px;}
 
 .dice {
     position: absolute;
@@ -155,6 +174,14 @@ i {
     transform: translateX(-50%);
     height: 100px;
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+
+#dice-1 {
+    top: 180px;
+}
+
+#dice-2 {
+    top: 300px;
 }
 
 .winner { background-color: #f7f7f7; }
